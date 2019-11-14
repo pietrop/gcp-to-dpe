@@ -29,7 +29,7 @@ const getBestAlternativeSentence = sentences => {
   return sentenceWithHighestConfidence;
 };
 
-module.exports.getBestAlternativeSentence =getBestAlternativeSentence;
+module.exports.getBestAlternativeSentence = getBestAlternativeSentence;
 
 const trimLeadingAndTailingWhiteSpace = text => {
   return text.trim();

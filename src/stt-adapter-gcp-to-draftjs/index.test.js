@@ -1,7 +1,11 @@
-const gcpSttToDraft, {
-  getBestAlternativeSentence,
-  trimLeadingAndTailingWhiteSpace
-} = require('./index');
+// const gcpSttToDraft, {
+//   getBestAlternativeSentence,
+//   trimLeadingAndTailingWhiteSpace
+// } = require('./index');
+const gcpSttToDraft = require('./index');
+const trimLeadingAndTailingWhiteSpace = require('./index').trimLeadingAndTailingWhiteSpace
+const getBestAlternativeSentence = require('./index').getBestAlternativeSentence;
+
 const draftTranscriptSample =require('./sample/googleSttToDraftJs.sample.js');
 const gcpSttTedTalkTranscript =require('./sample/gcpSttPunctuation.sample.json');
 

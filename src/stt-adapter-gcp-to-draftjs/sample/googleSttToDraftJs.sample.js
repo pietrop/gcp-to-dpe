@@ -27189,4 +27189,4 @@ const draftTranscriptSample = [
         ]
     }
 ];
-export default draftTranscriptSample;
+module.exports = draftTranscriptSample;
