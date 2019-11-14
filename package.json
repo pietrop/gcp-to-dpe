@@ -1,0 +1,18 @@
+{
+  "name": "aws-to-dpe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./example-usage.js",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:ci": "jest --ci"
+  },
+  "author": "",
+  "license": "ISC",
+  "jest": {},
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
