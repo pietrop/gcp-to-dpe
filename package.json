@@ -1,18 +1,27 @@
 {
   "name": "gcp-to-dpe",
   "version": "1.0.0",
-  "description": "GCP (Google Cloud Platform) to DPE (digital paper Edit) adapter extracted from/and recombined @bbc/react-transcript-editor",
+  "description": "GCP (Google Cloud Platform) STT to DPE (digital paper Edit) adapter extracted from/and recombined @bbc/react-transcript-editor",
   "main": "src/index.js",
   "scripts": {
-    "start": "node ./example-usage.js",
-    "exmaple:stt-adapter-gcp-to-draftjs": "node ./src/stt-adapter-gcp-to-draftjs/example-usage.js",
-    "example": "node ./src/example-usage.js",
+    "start:stt-adapter-gcp-to-draftjs": "node ./src/stt-adapter-gcp-to-draftjs/example-usage.js",
+    "start": "node ./src/example-usage.js",
     "test": "jest",
     "test:watch": "jest --watchAll",
-    "test:ci": "jest --ci"
+    "test:ci": "jest --ci",
+    "publish:public": "npm publish --access public",
+    "publish:dry:run": "npm publish --dry-run"
   },
   "author": "Pietro Passarelli",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pietrop/gcp-to-dpe/issues"
+  },
+  "homepage": "https://github.com/pietrop/gcp-to-dpe",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pietrop/gcp-to-dpe.git"
+  },
   "jest": {},
   "devDependencies": {
     "jest": "^24.9.0"
