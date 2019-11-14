@@ -11,13 +11,11 @@ Fork this repository + git clone + cd into folder + npm install
 
 ## Usage
 
-on npm [aws-to-dpe](https://www.npmjs.com/package/gcp-to-dpe)
+on npm [gcp-to-dpe](https://www.npmjs.com/package/gcp-to-dpe)
 
 ```
 npm install gcp-to-dpe
 ```
-
-
 
 ```js
 const gcpToDpe = require('gcp-to-dpe');
