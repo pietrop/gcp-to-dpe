@@ -83,11 +83,22 @@ const groupWordsInParagraphs = sentences => {
     const bestAlternative = getBestAlternativeSentence(sentence);
     paragraph.text.push(trimLeadingAndTailingWhiteSpace(bestAlternative.transcript));
 
+    // let speaker;
+    // console.log(bestAlternative.words[0])
+    // if(bestAlternative.words[0].speakerTag){
+    //   speaker = bestAlternative['words'][0].speakerTag;
+    // }
+
     bestAlternative.words.forEach((word) => {
       paragraph.words.push(normalizeWord(word, bestAlternative.confidence));
     });
     results.push(paragraph);
     paragraph = { words: [], text: [] };
+
+    // if(speaker){
+    //   paragraph.speaker = speaker;
+    // }
+    
   });
 
   return results;
