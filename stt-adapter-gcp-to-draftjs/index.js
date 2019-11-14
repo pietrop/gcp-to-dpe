@@ -1,5 +1,5 @@
 /**
- * Converts AWS Transcribe Json to DraftJs
+ * Converts GCP Transcribe Json to DraftJs
  * see `sample` folder for example of input and output as well as `example-usage.js`
  */
 
@@ -81,7 +81,7 @@ const mapPunctuationItemsToWords = words => {
 };
 
 /**
- * groups words list from amazon transcribe transcript based on punctuation.
+ * groups words list from gcp transcribe transcript based on punctuation.
  * @todo To be more accurate, should introduce an honorifics library to do the splitting of the words.
  * @param {array} words - array of words objects from kaldi transcript
  */
@@ -121,10 +121,10 @@ const groupSpeakerWordsInParagraphs = (words, speakerLabels) => {
   });
 };
 
-const amazonTranscribeToDraft = amazonTranscribeJson => {
+const gcpTranscribeToDraft = gcpTranscribeJson => {
   const results = [];
-  const tmpWords = amazonTranscribeJson.results.items;
-  const speakerLabels = amazonTranscribeJson.results.speaker_labels;
+  const tmpWords = gcpTranscribeJson.results.items;
+  const speakerLabels = gcpTranscribeJson.results.speaker_labels;
   const wordsWithRemappedPunctuation = mapPunctuationItemsToWords(tmpWords);
   const speakerSegmentation = typeof(speakerLabels) != 'undefined';
 
@@ -154,8 +154,8 @@ const amazonTranscribeToDraft = amazonTranscribeJson => {
 };
 
 
-module.exports = amazonTranscribeToDraft;
-module.exports.amazonTranscribeToDraft = amazonTranscribeToDraft;
+module.exports = gcpTranscribeToDraft;
+module.exports.gcpTranscribeToDraft = gcpTranscribeToDraft;
 module.exports.mapPunctuationItemsToWords  = mapPunctuationItemsToWords;
 module.exports.appendPunctuationToPreviousWord  = appendPunctuationToPreviousWord;
 module.exports.getBestAlternativeForWord = getBestAlternativeForWord;

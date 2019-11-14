@@ -1,6 +1,6 @@
-# AWS To DPE
+# GCP To DPE
 
-Abstracted from parts of [`@bbc/react-transcript-editor`](https://github.com/bbc/react-transcript-editor) this module provides a way to convert from AWS STT To [DPE format](https://github.com/bbc/digital-paper-edit).
+Abstracted from parts of [`@bbc/react-transcript-editor`](https://github.com/bbc/react-transcript-editor) this module provides a way to convert from GCP(Google Cloud Platform) STT To [DPE format](https://github.com/bbc/digital-paper-edit).
 
 
 <!-- ## Setup -->

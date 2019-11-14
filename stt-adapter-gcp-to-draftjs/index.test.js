@@ -1,15 +1,15 @@
-const  { amazonTranscribeToDraft,
+const  { gcpTranscribeToDraft,
     mapPunctuationItemsToWords,
     stripLeadingSpace,
     appendPunctuationToPreviousWord,
     getBestAlternativeForWord
   } = require('./index');
-  // const amazonTranscribeToDraft  = require('./index');
-  const draftTranscriptSample = require('./sample/amazonTranscribe.sample.js');
-  const amazonTranscribeTedTalkTranscript = require('./sample/amazonTranscribe.sample.json');
+  // const gcpTranscribeToDraft  = require('./index');
+  const draftTranscriptSample = require('./sample/gcpTranscribe.sample.js');
+  const gcpTranscribeTedTalkTranscript = require('./sample/gcpTranscribe.sample.json');
   
-  describe('amazonTranscribeToDraft', () => {
-    const result = amazonTranscribeToDraft(amazonTranscribeTedTalkTranscript);
+  describe('gcpTranscribeToDraft', () => {
+    const result = gcpTranscribeToDraft(gcpTranscribeTedTalkTranscript);
     it('Should be defined', () => {
       expect(result).toBeDefined();
     });

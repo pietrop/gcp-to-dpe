@@ -1,9 +1,9 @@
-const amazonTodayInFocusTranscript = require('./sample/todayinfocus.sample.json');
+const gcpTodayInFocusTranscript = require('./sample/todayinfocus.sample.json');
 const wordsWithSpeakers = require('./sample/todayinfocuswords.sample.json');
 const { groupWordsBySpeakerLabel, findSpeakerForWord, groupWordsBySpeaker } = require('./group-words-by-speakers');
 
-const words = amazonTodayInFocusTranscript.results.items;
-const speakerLabels = amazonTodayInFocusTranscript.results.speaker_labels;
+const words = gcpTodayInFocusTranscript.results.items;
+const speakerLabels = gcpTodayInFocusTranscript.results.speaker_labels;
 
 describe('groupWordsBySpeakerLabel', () => {
 

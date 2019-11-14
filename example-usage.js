@@ -1,9 +1,9 @@
 const fs = require('fs');
-const awsToDpe = require('./index.js');
+const gcpToDpe = require('./index.js');
 
-const awsTranscript = require('./sample/WSJ8623212922.mp3.json');
+const gcpTranscript = require('./sample/WSJ8623212922.mp3.json');
 
-const res = awsToDpe(awsTranscript);
+const res = gcpToDpe(gcpTranscript);
 
 fs.writeFileSync('./sample/output/dpe.json',JSON.stringify(res,null,2) )
 console.log(res)

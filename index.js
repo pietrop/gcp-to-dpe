@@ -1,16 +1,16 @@
-const  amazonTranscribeToDraft = require('./stt-adapter-aws-to-draftjs/index.js');
+const  gcpTranscribeToDraft = require('./stt-adapter-gcp-to-draftjs/index.js');
 const draftToDigitalPaperEdit  = require('./draftjs-to-digital-paper-edit/index.js');
 
 /**
- * Converts = require(' AWS transcribe to DPE. 
+ * Converts = require(' gcp transcribe to DPE. 
  * internally it goes via draftJS to do the conversion. 
- * This could be refactored to go directly form AWS to DPE
- * @param {json} awsTranscript - AWS Transcription Json
+ * This could be refactored to go directly form gcp to DPE
+ * @param {json} gcpTranscript - gcp Transcription Json
  * @returns {json} json transcription in DPE format
  */
 
-const awsToDpe = (awsTranscript) => {
-    const draftJsTranscript = amazonTranscribeToDraft(awsTranscript);
+const gcpToDpe = (gcpTranscript) => {
+    const draftJsTranscript = gcpTranscribeToDraft(gcpTranscript);
     // need to wrap result of conversion in a block for next converter
     const blocks = {   "blocks": draftJsTranscript}
     const dpeTranscript = draftToDigitalPaperEdit(blocks);
@@ -22,4 +22,4 @@ const awsToDpe = (awsTranscript) => {
     return dpeTranscript;
 }
 
-module.exports = awsToDpe;
+module.exports = gcpToDpe;
