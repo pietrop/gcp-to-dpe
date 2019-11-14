@@ -83,22 +83,20 @@ const groupWordsInParagraphs = sentences => {
     const bestAlternative = getBestAlternativeSentence(sentence);
     paragraph.text.push(trimLeadingAndTailingWhiteSpace(bestAlternative.transcript));
 
-    // let speaker;
-    // console.log(bestAlternative.words[0])
+    // let speaker;  
     // if(bestAlternative.words[0].speakerTag){
     //   speaker = bestAlternative['words'][0].speakerTag;
+    //   console.log(speaker)
     // }
 
     bestAlternative.words.forEach((word) => {
       paragraph.words.push(normalizeWord(word, bestAlternative.confidence));
     });
-    results.push(paragraph);
-    paragraph = { words: [], text: [] };
-
     // if(speaker){
     //   paragraph.speaker = speaker;
     // }
-    
+    results.push(paragraph);
+    paragraph = { words: [], text: [] };
   });
 
   return results;
@@ -116,7 +114,7 @@ const gcpSttToDraft = gcpSttJson => {
       text: paragraph.text.join(' '),
       type: 'paragraph',
       data: {
-        speaker: paragraph.speaker ? `Speaker ${ paragraph.speaker }` : `TBC ${ i }`,
+        speaker: paragraph.speaker ? `${ paragraph.speaker }` : `TBC ${ i }`,
         words: paragraph.words,
         start: parseFloat(paragraph.words[0].start)
       },
