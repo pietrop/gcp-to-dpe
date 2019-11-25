@@ -70,7 +70,7 @@ const computeTimeInSeconds = (startSecond, nanoSecond) => {
  */
 const normaliseTimecode = (wordObject, attribute)=>{
   if(typeof wordObject[attribute] === 'string'){
-    // "1.300s"
+    // eg "1.300s"
     if((wordObject[attribute]).endsWith("s")){
       const timecodeArray = [ ...wordObject[attribute]]
       // remove 's'
