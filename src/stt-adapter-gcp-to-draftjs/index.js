@@ -53,21 +53,59 @@ const computeTimeInSeconds = (startSecond, nanoSecond) => {
 
   return seconds;
 };
+ 
+/**
+ * normaliseTimecode
+ * @param {*} timecode handle string  and object conversion to second
+ * can either be a string, eg "1.300s". or an object, eg
+ *  "startTime": {
+    "seconds": "12",
+    "nanos": 900000000
+  },
+ * as well as edge case when it's an empty object (most likely a bug with gstt)
+ * raise issue on GCP https://issuetracker.google.com/issues/145082856
+ * first word missing startTime timestamp, so adding temporary workaround
+ * @param {*} attribute    attribute - 'startTime' or 'endTime' string
+ * @returns float number of timecode in seconds
+ */
+const normaliseTimecode = (wordObject, attribute)=>{
+  if(typeof wordObject[attribute] === 'string'){
+    // "1.300s"
+    if((wordObject[attribute]).endsWith("s")){
+      const timecodeArray = [ ...wordObject[attribute]]
+      // remove 's'
+      timecodeArray.pop()
+      return parseFloat(timecodeArray.join(''))
+    }
+    else{
+      return parseFloat(timecodeArray.join(''))
+    }
+  }
+  if(typeof wordObject[attribute] === 'object'){
+    const timecodeSeconds = wordObject[attribute].seconds || 0;
+    const timecodeNanos = wordObject[attribute].nanos || 0;
+   return computeTimeInSeconds(timecodeSeconds, timecodeNanos)
+  }
+
+  if(typeof wordObject[attribute] === 'undefined'){
+    return 0;
+  }
+
+  if(typeof wordObject[attribute] === 'number'){
+    return wordObject;
+  }
+}
 
 /**
  * Normalizes words so they can be used in
  * the generic generateEntitiesRanges() method
  **/
 const normalizeWord = (currentWord, confidence) => {
-  // raise issue on GCP https://issuetracker.google.com/issues/145082856
-  // first word missing startTime timestamp, so adding temporary workaround
-  const statTimeSeconds = currentWord.startTime.seconds || 0;
-  const startTimeNanos = currentWord.startTime.nanos || 0;
-  const endTimeSeconds = currentWord.endTime.seconds || 0;
-  const endTimeNanos = currentWord.endTime.nanos || 0;
   return {
-    start: computeTimeInSeconds(statTimeSeconds, startTimeNanos),
-    end: computeTimeInSeconds(endTimeSeconds, endTimeNanos),
+    // start: computeTimeInSeconds(statTimeSeconds, startTimeNanos),
+    start: normaliseTimecode(currentWord, 'startTime'),
+    // end: computeTimeInSeconds(endTimeSeconds, endTimeNanos),
+    end: normaliseTimecode(currentWord, 'endTime'),
     text: currentWord.word,
     confidence: confidence
   };
