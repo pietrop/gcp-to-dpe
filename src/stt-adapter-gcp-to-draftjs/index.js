@@ -59,10 +59,15 @@ const computeTimeInSeconds = (startSecond, nanoSecond) => {
  * the generic generateEntitiesRanges() method
  **/
 const normalizeWord = (currentWord, confidence) => {
-
+  // raise issue on GCP https://issuetracker.google.com/issues/145082856
+  // first word missing startTime timestamp, so adding temporary workaround
+  const statTimeSeconds = currentWord.startTime.seconds || 0;
+  const startTimeNanos = currentWord.startTime.nanos || 0;
+  const endTimeSeconds = currentWord.endTime.seconds || 0;
+  const endTimeNanos = currentWord.endTime.nanos || 0;
   return {
-    start: computeTimeInSeconds(currentWord.startTime.seconds, currentWord.startTime.nanos),
-    end: computeTimeInSeconds(currentWord.endTime.seconds, currentWord.endTime.nanos),
+    start: computeTimeInSeconds(statTimeSeconds, startTimeNanos),
+    end: computeTimeInSeconds(endTimeSeconds, endTimeNanos),
     text: currentWord.word,
     confidence: confidence
   };

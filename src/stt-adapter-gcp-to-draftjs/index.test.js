@@ -3,7 +3,7 @@
 //   trimLeadingAndTailingWhiteSpace
 // } = require('./index');
 const gcpSttToDraft = require('./index');
-const trimLeadingAndTailingWhiteSpace = require('./index').trimLeadingAndTailingWhiteSpace
+const {trimLeadingAndTailingWhiteSpace} = require('./index');
 const getBestAlternativeSentence = require('./index').getBestAlternativeSentence;
 
 const draftTranscriptSample =require('./sample/googleSttToDraftJs.sample.js');
