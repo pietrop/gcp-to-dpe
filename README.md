@@ -1,9 +1,10 @@
 # GCP To DPE
 
-Abstracted from parts of [`@bbc/react-transcript-editor`](https://github.com/bbc/react-transcript-editor) this module provides a way to convert from GCP(Google Cloud Platform) STT To [DPE format](https://github.com/bbc/digital-paper-edit).
-
+This module provides a way to convert from GCP(Google Cloud Platform) STT To [DPE format](https://github.com/bbc/digital-paper-edit).
+Note that this assumes that speaker diarization info is present in GCP STT result.
 
 ## Setup
+
 <!-- _stack - optional_
 _How to build and run the code/app_ -->
 
@@ -22,11 +23,10 @@ const gcpToDpe = require('gcp-to-dpe');
 const gcpTranscript = require('../sample/gcpSttPunctuation.sample.json');
 
 const res = gcpToDpe(gcpTranscript);
-// do something with dpe json 
+// do something with dpe json
 ```
 
 see [`src/example-usage.js`](./src/example-usage.js) for more.
-
 
 <!-- ## System Architecture -->
 <!-- _High level overview of system architecture_ -->
@@ -44,6 +44,7 @@ There's a [docs](./docs) folder in this repository.
 We are using [this template for ADR](https://gist.github.com/iaincollins/92923cc2c309c2751aea6f1b34b31d95) -->
 
 ## Development env
+
  <!-- _How to run the development environment_ -->
 
 - npm > `6.1.0`
@@ -56,11 +57,13 @@ Node version is set in node version manager [`.nvmrc`](https://github.com/creati
 <!-- _Linting, github pre-push hook - optional_ -->
 
 ## Build
+
 <!-- _How to run build_ -->
 
 _NA_
 
 ## Tests
+
 <!-- _How to carry out tests_ -->
 
 ```
@@ -68,6 +71,7 @@ npm run test
 ```
 
 ## Deployment
+
 <!-- _How to deploy the code/app into test/staging/production_ -->
 
 To publish to npm
