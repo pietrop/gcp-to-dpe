@@ -30,9 +30,7 @@ const gcpToDpe = (data) => {
   } catch (e) {
     throw new Error('Invalid input for GCP to DPE converter, expected data.response.results to be present');
   }
-  //   console.log(data.response.results);
   const finalResults = results[results.length - 1];
-  //   console.log('finalResults', JSON.stringify(finalResults, null, 2));
   const gcpWords = finalResults.alternatives[0].words;
   const words = gcpWords.map((word) => {
     return {
@@ -57,30 +55,23 @@ const gcpToDpe = (data) => {
     }
     if (word.speakerTag !== currentSpeaker) {
       currentSpeaker = word.speakerTag;
-      //   tmpParagraph.speaker = word.speakerTag;
       tmpParagraph.end = computeTimeInSeconds(word.endTime);
-      // tmpParagraph.end = word.endTime;
 
       paragraphs.push(tmpParagraph);
       tmpParagraph = {};
       tmpParagraph.speaker = formatSpeakerName(currentSpeaker);
       if (gcpWords[index + 1]) {
         tmpParagraph.start = computeTimeInSeconds(gcpWords[index + 1].startTime);
-        // tmpParagraph.start = gcpWords[index + 1].startTime;
       }
     } else {
       tmpParagraph.start = computeTimeInSeconds(word.startTime);
-      // tmpParagraph.start = word.startTime;
       tmpParagraph.speaker = currentSpeaker;
-      //   currentSpeaker = word.speakerTag;
       tmpParagraph.speaker = formatSpeakerName(word.speakerTag);
-      //   tmpParagraph.text = word.word;
     }
 
     // last element
     if (index === list.length - 1) {
       tmpParagraph.end = computeTimeInSeconds(word.endTime);
-      // tmpParagraph.end = word.endTime;
       paragraphs.push(tmpParagraph);
     }
   });
