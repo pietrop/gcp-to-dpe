@@ -60,12 +60,11 @@ const gcpToDpe = (data) => {
       paragraphs.push(tmpParagraph);
       tmpParagraph = {};
       tmpParagraph.speaker = formatSpeakerName(currentSpeaker);
+      // this way skips last speaker time range when it gets to the end
       if (gcpWords[index + 1]) {
         tmpParagraph.start = computeTimeInSeconds(gcpWords[index + 1].startTime);
       }
     } else {
-      // adding one second so that time ranges don't overlap.
-      // tmpParagraph.start = computeTimeInSeconds(word.startTime) + 1;
       tmpParagraph.speaker = formatSpeakerName(word.speakerTag);
     }
 
