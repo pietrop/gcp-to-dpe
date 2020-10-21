@@ -59,17 +59,19 @@ const gcpToDpe = (data) => {
       currentSpeaker = word.speakerTag;
       //   tmpParagraph.speaker = word.speakerTag;
       tmpParagraph.end = computeTimeInSeconds(word.endTime);
-      //   tmpParagraph.end = word.endTime;
+      // tmpParagraph.end = word.endTime;
 
       paragraphs.push(tmpParagraph);
       tmpParagraph = {};
+      tmpParagraph.speaker = formatSpeakerName(currentSpeaker);
       if (gcpWords[index + 1]) {
         tmpParagraph.start = computeTimeInSeconds(gcpWords[index + 1].startTime);
         // tmpParagraph.start = gcpWords[index + 1].startTime;
       }
     } else {
       tmpParagraph.start = computeTimeInSeconds(word.startTime);
-      //   tmpParagraph.start = word.startTime;
+      // tmpParagraph.start = word.startTime;
+      tmpParagraph.speaker = currentSpeaker;
       //   currentSpeaker = word.speakerTag;
       tmpParagraph.speaker = formatSpeakerName(word.speakerTag);
       //   tmpParagraph.text = word.word;
@@ -78,11 +80,10 @@ const gcpToDpe = (data) => {
     // last element
     if (index === list.length - 1) {
       tmpParagraph.end = computeTimeInSeconds(word.endTime);
-      //   tmpParagraph.end = word.endTime;
+      // tmpParagraph.end = word.endTime;
       paragraphs.push(tmpParagraph);
     }
   });
-  console.log('finalResults', JSON.stringify(words, null, 2));
   return { words, paragraphs };
 };
 

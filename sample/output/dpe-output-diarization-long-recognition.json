@@ -21958,529 +21958,538 @@
   ],
   "paragraphs": [
     {
-      "speaker": 3,
+      "speaker": "SPEAKER_3",
       "start": 54.5,
       "end": 87.9
     },
     {
+      "speaker": "SPEAKER_1",
       "start": 103.5,
-      "speaker": 1,
       "end": 105.2
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 105.4,
-      "speaker": 2,
       "end": 106.1
     },
     {
+      "speaker": "SPEAKER_1",
       "start": 129.9,
-      "speaker": 1,
       "end": 132.5
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 191.2,
-      "speaker": 3,
       "end": 192.4
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 192.4,
       "end": 192.5
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 214,
-      "speaker": 3,
       "end": 216.5
     },
     {
+      "speaker": "SPEAKER_1",
       "start": 233.8,
-      "speaker": 1,
       "end": 233.9
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 259.4,
-      "speaker": 3,
       "end": 260.5
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 260.6,
-      "speaker": 2,
       "end": 262.1
     },
     {
+      "speaker": "SPEAKER_1",
       "start": 283.9,
-      "speaker": 1,
       "end": 284.6
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 286.8,
-      "speaker": 2,
       "end": 288.2
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 332.5,
-      "speaker": 3,
       "end": 333.4
     },
     {
+      "speaker": "SPEAKER_1",
       "start": 337.4,
-      "speaker": 1,
       "end": 340
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 362.5,
-      "speaker": 3,
       "end": 363.6
     },
     {
+      "speaker": "SPEAKER_1",
       "start": 376.4,
-      "speaker": 1,
       "end": 380.5
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 380.5,
-      "speaker": 2,
       "end": 381.3
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 468,
-      "speaker": 3,
       "end": 471.4
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 471.4,
       "end": 472.2
     },
     {
+      "speaker": "SPEAKER_1",
       "start": 517.3,
-      "speaker": 1,
       "end": 520.5
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 520.5,
-      "speaker": 2,
       "end": 522.1
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 526.9,
-      "speaker": 3,
       "end": 527.9
     },
     {
+      "speaker": "SPEAKER_1",
       "start": 528.4,
-      "speaker": 1,
       "end": 530.5
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 578.8,
-      "speaker": 3,
       "end": 579.8
     },
     {
+      "speaker": "SPEAKER_1",
       "start": 579.8,
-      "speaker": 1,
       "end": 580.5
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 627.8,
-      "speaker": 3,
       "end": 630.2
     },
     {
+      "speaker": "SPEAKER_1",
       "start": 645.4,
-      "speaker": 1,
       "end": 646.7
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 646.7,
-      "speaker": 3,
       "end": 648.8
     },
     {
+      "speaker": "SPEAKER_1",
       "start": 676.6,
-      "speaker": 1,
       "end": 676.8
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 679.1,
-      "speaker": 2,
       "end": 680.9
     },
     {
+      "speaker": "SPEAKER_1",
       "start": 687.6,
-      "speaker": 1,
       "end": 688.6
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 688.6,
       "end": 690.2
     },
     {
+      "speaker": "SPEAKER_1",
       "start": 692.2,
-      "speaker": 1,
       "end": 694.8
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 695.2,
-      "speaker": 2,
       "end": 696.8
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 702.4,
-      "speaker": 3,
       "end": 704.9
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 704.9,
-      "speaker": 2,
       "end": 707
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 718.7,
-      "speaker": 3,
       "end": 720.9
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 721.7,
-      "speaker": 2,
       "end": 722.6
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 766.8,
-      "speaker": 3,
       "end": 768
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 769.4,
-      "speaker": 2,
       "end": 771.2
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 783.1,
-      "speaker": 3,
       "end": 783.8
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 784.2,
-      "speaker": 2,
       "end": 785.5
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 801.7,
-      "speaker": 3,
       "end": 803
     },
     {
+      "speaker": "SPEAKER_1",
       "start": 820.8,
-      "speaker": 1,
       "end": 828.3
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 874.6,
-      "speaker": 3,
       "end": 878
     },
     {
+      "speaker": "SPEAKER_1",
       "start": 886.2,
-      "speaker": 1,
       "end": 886.8
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 887.4,
-      "speaker": 3,
       "end": 888.9
     },
     {
+      "speaker": "SPEAKER_1",
       "start": 905.7,
-      "speaker": 1,
       "end": 907.6
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 908.2,
-      "speaker": 3,
       "end": 908.8
     },
     {
+      "speaker": "SPEAKER_1",
       "start": 927.1,
-      "speaker": 1,
       "end": 927.7
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 931,
-      "speaker": 2,
       "end": 933.9
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 953.6,
-      "speaker": 3,
       "end": 956.2
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 956.2,
       "end": 957.9
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 1014.6,
-      "speaker": 3,
       "end": 1017.5
     },
     {
+      "speaker": "SPEAKER_1",
       "start": 1026.8,
-      "speaker": 1,
       "end": 1027.8
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 1027.8,
       "end": 1029.3
     },
     {
+      "speaker": "SPEAKER_1",
       "start": 1053.3,
-      "speaker": 1,
       "end": 1054.5
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 1055,
-      "speaker": 2,
       "end": 1061.2
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 1098,
-      "speaker": 3,
       "end": 1099
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 1099,
       "end": 1100.5
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 1103.1,
-      "speaker": 3,
       "end": 1105
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 1105,
-      "speaker": 2,
       "end": 1105.7
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 1116.4,
-      "speaker": 3,
       "end": 1119.4
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 1119.4,
       "end": 1120.2
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 1144.8,
-      "speaker": 3,
       "end": 1145.9
     },
     {
+      "speaker": "SPEAKER_1",
       "start": 1164.8,
-      "speaker": 1,
       "end": 1166.6
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 1166.6,
-      "speaker": 2,
       "end": 1167
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 1213,
-      "speaker": 3,
       "end": 1216.3
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 1218.4,
-      "speaker": 2,
       "end": 1219.3
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 1222.1,
-      "speaker": 3,
       "end": 1223.2
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 1223.5,
-      "speaker": 2,
       "end": 1224.7
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 1236.9,
-      "speaker": 3,
       "end": 1238.5
     },
     {
+      "speaker": "SPEAKER_1",
       "start": 1276.8,
-      "speaker": 1,
       "end": 1279.1
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 1279.3,
-      "speaker": 2,
       "end": 1281.5
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 1293.5,
-      "speaker": 3,
       "end": 1295.4
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 1295.4,
       "end": 1295.7
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 1301.1,
-      "speaker": 3,
       "end": 1302.7
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 1302.7,
-      "speaker": 2,
       "end": 1305.9
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 1391.6,
-      "speaker": 3,
       "end": 1393.1
     },
     {
+      "speaker": "SPEAKER_1",
       "start": 1403.4,
-      "speaker": 1,
       "end": 1410.2
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 1424.6,
-      "speaker": 3,
       "end": 1426.4
     },
     {
+      "speaker": "SPEAKER_1",
       "start": 1464.4,
-      "speaker": 1,
       "end": 1465
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 1485.4,
-      "speaker": 3,
       "end": 1486.3
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 1489.1,
-      "speaker": 2,
       "end": 1489.6
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 1540.8,
-      "speaker": 3,
       "end": 1542.1
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 1542.2,
-      "speaker": 2,
       "end": 1544
     },
     {
+      "speaker": "SPEAKER_1",
       "start": 1573.1,
-      "speaker": 1,
       "end": 1575.8
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 1575.8,
-      "speaker": 2,
       "end": 1577
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 1578.7,
-      "speaker": 3,
       "end": 1579.5
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 1580.7,
-      "speaker": 2,
       "end": 1582.4
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 1622.8,
-      "speaker": 3,
       "end": 1626.2
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 1626.5,
-      "speaker": 2,
       "end": 1628.2
     },
     {
+      "speaker": "SPEAKER_1",
       "start": 1659.2,
-      "speaker": 1,
       "end": 1660
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 1664,
-      "speaker": 3,
       "end": 1666.5
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 1666.5,
-      "speaker": 2,
       "end": 1668.9
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 1675.4,
-      "speaker": 3,
       "end": 1676.9
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 1677.9,
-      "speaker": 2,
       "end": 1679.9
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 1712.1,
-      "speaker": 3,
       "end": 1714.2
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 1714.2,
       "end": 1714.3
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 1720.4,
-      "speaker": 3,
       "end": 1721.3
     },
     {
+      "speaker": "SPEAKER_1",
       "start": 1755,
-      "speaker": 1,
       "end": 1758.3
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 1770.8,
-      "speaker": 3,
       "end": 1773.2
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 1775.5,
-      "speaker": 2,
       "end": 1775.8
     },
     {
+      "speaker": "SPEAKER_3",
       "start": 1777.5,
-      "speaker": 3,
       "end": 1780.3
     },
     {
+      "speaker": "SPEAKER_1",
       "start": 1793.6,
-      "speaker": 1,
       "end": 1796.4
     },
     {
+      "speaker": "SPEAKER_2",
       "start": 1796.8,
-      "speaker": 2,
       "end": 1797.1
     },
     {
+      "speaker": "SPEAKER_1",
       "start": 1842.9,
-      "speaker": 1,
       "end": 1843.2
     }
   ]
