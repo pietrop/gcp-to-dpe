@@ -41,8 +41,8 @@ const gcpToDpe = (data) => {
   });
 
   let currentSpeaker = gcpWords[0].speakerTag;
-  let currentSpeakerStartTime = gcpWords[0].startTime;
-  let currentSpeakerEndTime = gcpWords[gcpWords.length - 1].endTime;
+  let currentSpeakerStartTime = computeTimeInSeconds(gcpWords[0].startTime);
+  let currentSpeakerEndTime = computeTimeInSeconds(gcpWords[gcpWords.length - 1].endTime);
 
   const paragraphs = [];
   let tmpParagraph = {
@@ -64,8 +64,8 @@ const gcpToDpe = (data) => {
         tmpParagraph.start = computeTimeInSeconds(gcpWords[index + 1].startTime);
       }
     } else {
-      tmpParagraph.start = computeTimeInSeconds(word.startTime);
-      tmpParagraph.speaker = currentSpeaker;
+      // adding one second so that time ranges don't overlap.
+      // tmpParagraph.start = computeTimeInSeconds(word.startTime) + 1;
       tmpParagraph.speaker = formatSpeakerName(word.speakerTag);
     }
 
