@@ -1,3 +1,6 @@
+const formatSpeakerName = (name) => {
+  return `SPEAKER_${name}`;
+};
 /**
  * GCP does not provide a nanosecond attribute if the word starts at 0 nanosecond
  * @param startSecond
@@ -45,7 +48,7 @@ const gcpToDpe = (data) => {
 
   const paragraphs = [];
   let tmpParagraph = {
-    speaker: currentSpeaker,
+    speaker: formatSpeakerName(currentSpeaker),
     start: currentSpeakerStartTime,
     end: currentSpeakerEndTime,
   };
@@ -68,7 +71,7 @@ const gcpToDpe = (data) => {
       tmpParagraph.start = computeTimeInSeconds(word.startTime);
       //   tmpParagraph.start = word.startTime;
       //   currentSpeaker = word.speakerTag;
-      tmpParagraph.speaker = word.speakerTag;
+      tmpParagraph.speaker = formatSpeakerName(word.speakerTag);
       //   tmpParagraph.text = word.word;
     }
 
