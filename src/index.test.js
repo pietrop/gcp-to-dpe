@@ -76,3 +76,15 @@ test('gco to dpe - words start is number', () => {
     expect(typeof w.start).toBe('number');
   });
 });
+
+test('gco to dpe - paragraphs start is number', () => {
+  res.paragraphs.forEach((p) => {
+    expect(typeof p.start).toBe('number');
+  });
+});
+
+test('gco to dpe - paragraphs end is number', () => {
+  res.paragraphs.forEach((p) => {
+    expect(typeof p.end).toBe('number');
+  });
+});

@@ -1,0 +1,616 @@
+{
+  "words": [
+    {
+      "start": 0,
+      "end": 0.5,
+      "text": "Avete"
+    },
+    {
+      "start": 0.5,
+      "end": 0.7,
+      "text": "anche"
+    },
+    {
+      "start": 0.7,
+      "end": 0.8,
+      "text": "voi"
+    },
+    {
+      "start": 0.8,
+      "end": 1.7,
+      "text": "la"
+    },
+    {
+      "start": 1.7,
+      "end": 2,
+      "text": "sensazione"
+    },
+    {
+      "start": 2,
+      "end": 2.6,
+      "text": "che"
+    },
+    {
+      "start": 2.6,
+      "end": 2.9,
+      "text": "in"
+    },
+    {
+      "start": 2.9,
+      "end": 3.1,
+      "text": "questo"
+    },
+    {
+      "start": 3.1,
+      "end": 3.3,
+      "text": "momento"
+    },
+    {
+      "start": 3.3,
+      "end": 4,
+      "text": "storico"
+    },
+    {
+      "start": 4,
+      "end": 4.8,
+      "text": "se"
+    },
+    {
+      "start": 4.8,
+      "end": 5.1,
+      "text": "dai"
+    },
+    {
+      "start": 5.1,
+      "end": 5.3,
+      "text": "alle"
+    },
+    {
+      "start": 5.3,
+      "end": 5.4,
+      "text": "persone"
+    },
+    {
+      "start": 5.4,
+      "end": 6.3,
+      "text": "la"
+    },
+    {
+      "start": 6.3,
+      "end": 6.5,
+      "text": "possibilità"
+    },
+    {
+      "start": 6.5,
+      "end": 7.2,
+      "text": "di"
+    },
+    {
+      "start": 7.2,
+      "end": 7.7,
+      "text": "scegliere"
+    },
+    {
+      "start": 7.7,
+      "end": 7.8,
+      "text": "fra"
+    },
+    {
+      "start": 7.8,
+      "end": 8,
+      "text": "due"
+    },
+    {
+      "start": 8,
+      "end": 8.2,
+      "text": "cose"
+    },
+    {
+      "start": 8.2,
+      "end": 9.4,
+      "text": "voteranno"
+    },
+    {
+      "start": 9.4,
+      "end": 10.3,
+      "text": "sempre"
+    },
+    {
+      "start": 10.3,
+      "end": 10.4,
+      "text": "la"
+    },
+    {
+      "start": 10.4,
+      "end": 10.6,
+      "text": "cosa"
+    },
+    {
+      "start": 10.6,
+      "end": 11.1,
+      "text": "peggiore."
+    },
+    {
+      "start": 11.1,
+      "end": 12.4,
+      "text": "Io"
+    },
+    {
+      "start": 12.4,
+      "end": 12.8,
+      "text": "ormai"
+    },
+    {
+      "start": 12.8,
+      "end": 13.7,
+      "text": "non"
+    },
+    {
+      "start": 13.7,
+      "end": 13.8,
+      "text": "mi"
+    },
+    {
+      "start": 13.8,
+      "end": 14,
+      "text": "stupisco"
+    },
+    {
+      "start": 14,
+      "end": 14.3,
+      "text": "più"
+    },
+    {
+      "start": 14.3,
+      "end": 14.3,
+      "text": "di"
+    },
+    {
+      "start": 14.3,
+      "end": 14.5,
+      "text": "niente."
+    },
+    {
+      "start": 14.5,
+      "end": 15.7,
+      "text": "Direi"
+    },
+    {
+      "start": 15.7,
+      "end": 15.8,
+      "text": "di"
+    },
+    {
+      "start": 15.8,
+      "end": 15.9,
+      "text": "sì"
+    },
+    {
+      "start": 15.9,
+      "end": 16.1,
+      "text": "alla"
+    },
+    {
+      "start": 16.1,
+      "end": 16.4,
+      "text": "brexit"
+    },
+    {
+      "start": 16.4,
+      "end": 17.4,
+      "text": "tornare"
+    },
+    {
+      "start": 17.4,
+      "end": 17.6,
+      "text": "alla"
+    },
+    {
+      "start": 17.6,
+      "end": 17.9,
+      "text": "Lira"
+    },
+    {
+      "start": 17.9,
+      "end": 19.1,
+      "text": "restaurare"
+    },
+    {
+      "start": 19.1,
+      "end": 19.3,
+      "text": "il"
+    },
+    {
+      "start": 19.3,
+      "end": 19.8,
+      "text": "Feudalesimo"
+    },
+    {
+      "start": 19.8,
+      "end": 21.8,
+      "text": "anche"
+    },
+    {
+      "start": 21.8,
+      "end": 21.8,
+      "text": "se"
+    },
+    {
+      "start": 21.8,
+      "end": 22,
+      "text": "ne"
+    },
+    {
+      "start": 22,
+      "end": 22.3,
+      "text": "facessimo"
+    },
+    {
+      "start": 22.3,
+      "end": 22.9,
+      "text": "referendum"
+    },
+    {
+      "start": 22.9,
+      "end": 23.1,
+      "text": "più"
+    },
+    {
+      "start": 23.1,
+      "end": 24,
+      "text": "fantasiosi"
+    },
+    {
+      "start": 24,
+      "end": 25,
+      "text": "purché"
+    },
+    {
+      "start": 25,
+      "end": 25.8,
+      "text": "passatisti,"
+    },
+    {
+      "start": 25.8,
+      "end": 26.5,
+      "text": "io"
+    },
+    {
+      "start": 26.5,
+      "end": 26.6,
+      "text": "sono"
+    },
+    {
+      "start": 26.6,
+      "end": 27.2,
+      "text": "sicuro"
+    },
+    {
+      "start": 27.2,
+      "end": 27.2,
+      "text": "di"
+    },
+    {
+      "start": 27.2,
+      "end": 27.4,
+      "text": "quale"
+    },
+    {
+      "start": 27.4,
+      "end": 27.6,
+      "text": "sarebbe"
+    },
+    {
+      "start": 27.6,
+      "end": 27.7,
+      "text": "il"
+    },
+    {
+      "start": 27.7,
+      "end": 28.3,
+      "text": "risultato"
+    },
+    {
+      "start": 28.3,
+      "end": 30.1,
+      "text": "volete"
+    },
+    {
+      "start": 30.1,
+      "end": 30.5,
+      "text": "voi"
+    },
+    {
+      "start": 30.5,
+      "end": 31.9,
+      "text": "abrogare"
+    },
+    {
+      "start": 31.9,
+      "end": 32.1,
+      "text": "la"
+    },
+    {
+      "start": 32.1,
+      "end": 32.2,
+      "text": "norma"
+    },
+    {
+      "start": 32.2,
+      "end": 33,
+      "text": "che"
+    },
+    {
+      "start": 33,
+      "end": 33.4,
+      "text": "vieta"
+    },
+    {
+      "start": 33.4,
+      "end": 33.4,
+      "text": "il"
+    },
+    {
+      "start": 33.4,
+      "end": 33.7,
+      "text": "fumo"
+    },
+    {
+      "start": 33.7,
+      "end": 34,
+      "text": "negli"
+    },
+    {
+      "start": 34,
+      "end": 34.3,
+      "text": "aeroplani."
+    },
+    {
+      "start": 34.3,
+      "end": 35.2,
+      "text": "Sì,"
+    },
+    {
+      "start": 35.2,
+      "end": 37.7,
+      "text": "noi"
+    },
+    {
+      "start": 37.7,
+      "end": 37.9,
+      "text": "prendiamo"
+    },
+    {
+      "start": 37.9,
+      "end": 38.7,
+      "text": "ricominciare"
+    },
+    {
+      "start": 38.7,
+      "end": 38.8,
+      "text": "a"
+    },
+    {
+      "start": 38.8,
+      "end": 39.1,
+      "text": "fumare"
+    },
+    {
+      "start": 39.1,
+      "end": 39.9,
+      "text": "leggere"
+    },
+    {
+      "start": 39.9,
+      "end": 40.1,
+      "text": "lo"
+    },
+    {
+      "start": 40.1,
+      "end": 40.3,
+      "text": "vedo"
+    },
+    {
+      "start": 40.3,
+      "end": 40.4,
+      "text": "questo"
+    },
+    {
+      "start": 40.4,
+      "end": 40.9,
+      "text": "prendere"
+    },
+    {
+      "start": 40.9,
+      "end": 41.1,
+      "text": "Le"
+    },
+    {
+      "start": 41.1,
+      "end": 41.5,
+      "text": "Chic"
+    },
+    {
+      "start": 41.5,
+      "end": 44.9,
+      "text": "bracciali"
+    },
+    {
+      "start": 44.9,
+      "end": 45,
+      "text": "dei"
+    },
+    {
+      "start": 45,
+      "end": 45.5,
+      "text": "sedili"
+    },
+    {
+      "start": 45.5,
+      "end": 48.4,
+      "text": "volete"
+    },
+    {
+      "start": 48.4,
+      "end": 48.8,
+      "text": "voi"
+    },
+    {
+      "start": 48.8,
+      "end": 50,
+      "text": "abolire"
+    },
+    {
+      "start": 50,
+      "end": 50.1,
+      "text": "la"
+    },
+    {
+      "start": 50.1,
+      "end": 50.4,
+      "text": "geografia,"
+    },
+    {
+      "start": 50.4,
+      "end": 58.4,
+      "text": "vi"
+    },
+    {
+      "start": 58.4,
+      "end": 59.1,
+      "text": "piace"
+    },
+    {
+      "start": 59.1,
+      "end": 59.2,
+      "text": "la"
+    },
+    {
+      "start": 59.2,
+      "end": 59.3,
+      "text": "geografia?"
+    },
+    {
+      "start": 59.9,
+      "end": 61.7,
+      "text": "il"
+    },
+    {
+      "start": 61.7,
+      "end": 62.2,
+      "text": "Belgio"
+    },
+    {
+      "start": 64.6,
+      "end": 66.1,
+      "text": "volete"
+    },
+    {
+      "start": 66.1,
+      "end": 66.4,
+      "text": "voi"
+    },
+    {
+      "start": 66.4,
+      "end": 67.9,
+      "text": "destinare"
+    },
+    {
+      "start": 67.9,
+      "end": 68,
+      "text": "il"
+    },
+    {
+      "start": 68,
+      "end": 69.2,
+      "text": "10%"
+    },
+    {
+      "start": 69.2,
+      "end": 69.4,
+      "text": "del"
+    },
+    {
+      "start": 69.4,
+      "end": 69.6,
+      "text": "PIL"
+    },
+    {
+      "start": 69.6,
+      "end": 70.9,
+      "text": "al"
+    },
+    {
+      "start": 70.9,
+      "end": 71.5,
+      "text": "implemento"
+    },
+    {
+      "start": 71.5,
+      "end": 71.7,
+      "text": "del"
+    },
+    {
+      "start": 71.7,
+      "end": 72.2,
+      "text": "servizio"
+    },
+    {
+      "start": 72.2,
+      "end": 72.5,
+      "text": "del"
+    },
+    {
+      "start": 72.5,
+      "end": 73,
+      "text": "televideo?"
+    },
+    {
+      "start": 75.4,
+      "end": 79.9,
+      "text": "televideo"
+    }
+  ],
+  "paragraphs": [
+    {
+      "speaker": "SPEAKER_3",
+      "start": 0,
+      "end": 37.7
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 37.7,
+      "end": 39.9
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "start": 39.9,
+      "end": 41.1
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 41.1,
+      "end": 48.4
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "start": 48.4,
+      "end": 58.4
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "start": 58.4,
+      "end": 66.1
+    },
+    {
+      "speaker": "SPEAKER_3",
+      "start": 66.1,
+      "end": 79.9
+    },
+    {
+      "speaker": "SPEAKER_1",
+      "end": 79.9,
+      "start": 75.4
+    }
+  ]
+}

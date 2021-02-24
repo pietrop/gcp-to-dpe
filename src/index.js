@@ -71,6 +71,11 @@ const gcpToDpe = (data) => {
     // last element
     if (index === list.length - 1) {
       tmpParagraph.end = computeTimeInSeconds(word.endTime);
+      // edge case when there's one last word with a different speaker from previous one
+      if (!tmpParagraph.start) {
+        console.log('tmpParagraph start', tmpParagraph);
+        tmpParagraph.start = computeTimeInSeconds(word.startTime);
+      }
       paragraphs.push(tmpParagraph);
     }
   });
